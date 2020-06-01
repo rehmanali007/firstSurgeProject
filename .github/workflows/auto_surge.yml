@@ -26,5 +26,5 @@ jobs:
       run: npm install -g surge
       
     - name: Deploy app to surge
-      run: surge ./ rehmanali.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ --token ${{ secrets.SURGE_TOKEN }}
       
